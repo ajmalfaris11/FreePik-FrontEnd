@@ -70,3 +70,51 @@ body{
     overflow-x: scroll;
     display: flex;
   }
+
+  /* ------------ sign up ----- sign up ----- sign up ------------ */
+
+  .Sign-up-for-free-section{
+    background-color: #C7EBFF;
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    align-items: center;
+  }
+  
+  .Sign-up-for-free-size-blw-795{
+    font-size: 18px;
+  }
+  
+  .text-freepik-dark-create-an-acct{
+    font-size: 20px;
+    color: #374957;
+  }
+
+  /* ------------ Explore Trendings ----- Explore Trendings ----- Explore Trendings ------------ */
+
+  .explore-trendings{
+    background-color: #F8FAFB;
+    padding: 50px 20px 25px 20px;
+    text-align: center;
+  }
+  
+  .parent-for-btm-left-text{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .bottom-left-text-in-img{
+    position: absolute;
+    bottom: 8px;
+    left: 25px;
+    font-weight: bold;
+  }
+  
+  .img-grid-light-bg{
+    background-color: #F8FAFB;
+  }
+  
+  .parent-for-btm-left-text:hover{
+    transform: scale(0.95);
+    transition: 0.3s;
+  }
