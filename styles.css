@@ -180,5 +180,54 @@ body{
         color: #374957;
       }
       
+    /* ------------ FOOTER ----- FOOTER ----- FOOTER ------------ */
 
+      .footer-bg{
+        background-color: #060613;
+        padding-top: 70px;
+      }
+      .footer-list{
+        list-style: none;
+        color: white;
+      }
       
+      .footer-list h6{
+        color: white;
+      }
+      
+      .footer-list li{
+        color: #5f7d95;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      
+      .social-media-icon{
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        position: relative;
+      }
+      
+      .fb{
+        background-color: #0D6EFD;
+      }
+      
+      .twitter{
+        background-color: #47A5ED;
+      }
+      
+      .pin{
+        background-color: #BE1E24;
+      }
+      
+      .insta{
+        background: #f09433; 
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+      }
+      
+      .ytube{
+        background-color: #AC0000;
+      }
