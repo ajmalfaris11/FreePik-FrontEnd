@@ -118,3 +118,41 @@ body{
     transform: scale(0.95);
     transition: 0.3s;
   }
+
+    /* ------------ UNLOCK YOUR INNER CREATOR ----- UNLOCK YOUR INNER CREATOR ----- UNLOCK YOUR INNER CREATOR ------------ */
+
+    .Unlock-your-inner-creator{
+        align-items: center;
+      }
+      
+      .Unlock-your-inner-creator-img{
+        width: 275px;
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      
+      .bottom-center-text-in-img {
+        position: absolute;
+        top: 88%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+      }
+      
+      .explore-box{
+        height: 250px;
+        padding-left: 75px;
+        padding-right: 75px;
+        border: 2px solid rgb(186, 186, 186);
+        border-radius: 15px;
+        background-color: transparent;
+        position: relative;
+      }
+      
+      .explore-box-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
