@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* ------------ NAV BAR ----- NAV BAR ----- NAV BAR ------------ */
+
+.badge-new {
+    background-color: #000000;
+    color: #0D6EFD;
+  }
+  
+  .nav-btns-hide {
+    display: flex;
+    align-items: center;
+  }
+  
+/* ------------ HEADER ----- HEADER ----- HEADER ------------ */
+
+  .Header-section {
+    background-color: #0D6EFD;
+    height: 35vw;
+    align-items: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Header-section-p {
+    font-size: 24px;
+  }
+  
+  .header-sec-search-div {
+    width: 50vw;
+    border: 2px solid #F8F9FA;
+    border-radius: 5px;
+    background-color: #F8F9FA;
+  }
+  
+  .Header-section-blue-btn {
+    background-color: #6C97E7;
+    color: white;
+    border: none;
+    margin: 5px;
+    font-size: 15px;
+    padding: 2px 10px;
+    border-radius: 5px;
+  }
+  .Header-section-circle-img-div{
+    margin-top: 30px;
+  }
+  
+  .Header-section-circle-img-div img{
+    width: 120px;
+    border: 2px solid #6C97E7;
+    padding: 3px;
+  }
+  
+  .circle-img-animation:hover{
+    transform: scale(.9);
+    transition: 0.3s;
+  }
+  
+  .Header-section-circle-img-container{
+    overflow-x: scroll;
+    display: flex;
+  }
