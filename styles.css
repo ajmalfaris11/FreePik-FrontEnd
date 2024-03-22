@@ -182,9 +182,14 @@ body{
       
     /* ------------ FOOTER ----- FOOTER ----- FOOTER ------------ */
 
+
       .footer-bg{
         background-color: #060613;
         padding-top: 70px;
+      }
+
+      .main-footer{
+        margin-bottom: 100px;
       }
       .footer-list{
         list-style: none;
@@ -230,4 +235,90 @@ body{
       
       .ytube{
         background-color: #AC0000;
+      }
+
+      .secont-last-footer{
+        padding-inline: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        height: 80px;
+        color: rgb(107, 115, 133);
+      }
+      .secont-last-footer img{
+        width: 150px;
+      }
+      .img-div{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+      }
+      .footer-end{
+        background-color: #181937;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+
+      }
+
+      .footer-span{
+        display: flex;
+        gap: 15px;
+      }
+
+
+
+
+
+
+
+
+
+
+    /* ------------ Pre-set ----- Pre-set ----- Pre-set ------------ */
+    .a-link {
+        text-decoration: none;
+        color: gray;
+      }
+      
+      .trasparent-btn{
+        background-color: transparent;
+        border: none;
+      }
+      
+      .font-size-13{
+        font-size: 13px;
+      }
+      
+      .text-weight-500{
+        font-weight: 500;
+      }
+      
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      
+      .text-freepik-dark{
+        font-size: 30px;
+        color: #374957;
+      }
+      .text-freepik-secondary{
+        font-size: 20px;
+      }
+      
+      .overflow-scroll-preset{
+        overflow-x: scroll;
+        display: flex;
+      }
+      
+      .color-light-grey-line{
+        background-color: white;
+        border: 1px solid white;
       }
