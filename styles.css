@@ -19,6 +19,15 @@ body{
     align-items: center;
   }
   
+  .navbar-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .navbar-text a{
+    text-decoration: none;
+  }
 /* ------------ HEADER ----- HEADER ----- HEADER ------------ */
 
   .Header-section {
@@ -53,6 +62,8 @@ body{
   }
   .Header-section-circle-img-div{
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
   }
   
   .Header-section-circle-img-div img{
@@ -405,6 +416,7 @@ body{
     .hide-abv-1250-preset{
       display: none;
     }
+   
   }
   
   @media only screen and (max-width: 990px) {
@@ -429,6 +441,17 @@ body{
     .signature-div{
       display: flex;
       justify-content: space-between;
+    }
+    .Header-section-circle-img-container{
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center;
+      
+    }
+    .header-circle-section{
+      display: flex;
+      height: 100%;
+      align-items: center;
     }
   }
   
