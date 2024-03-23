@@ -107,9 +107,6 @@ body {
   transform: scale(.9);
 }
 
-
-
-
 /* ------------ sign up ----- sign up ----- sign up ------------ */
 
 .Sign-up-for-free-section {
@@ -185,10 +182,9 @@ body {
 }
 
 .explore-box {
-  height: 250px;
   padding-left: 75px;
   padding-right: 75px;
-  border: 2px solid rgb(186, 186, 186);
+  border: 2px solid rgb(189, 185, 185);
   border-radius: 15px;
   background-color: transparent;
   position: relative;
@@ -321,6 +317,7 @@ body {
   align-items: center;
   height: 80px;
   color: rgb(107, 115, 133);
+  padding-block: 50px;
 }
 .signature-div {
   display: flex;
@@ -353,6 +350,10 @@ body {
 .footer-span {
   display: flex;
   gap: 15px;
+}
+
+hr{
+  margin: 0 !important;
 }
 
 /* ------------ Pre-set ----- Pre-set ----- Pre-set ------------ */
@@ -486,8 +487,8 @@ body {
   .second-last-footer {
     flex-direction: column;
     height: auto;
-    padding-bottom: 40px;
-    padding-top: 20px;
+    padding: 20px;
+   
   }
   .signature-div {
     margin-right: 0px;
