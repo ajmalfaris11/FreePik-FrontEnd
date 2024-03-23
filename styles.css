@@ -102,6 +102,11 @@ body{
     position: relative;
     text-align: center;
     color: white;
+    transition: 0.5s ease-in-out;
+    
+  }
+  .parent-for-btm-left-text img{
+    border-radius: 4px;
   }
   .bottom-left-text-in-img{
     position: absolute;
@@ -116,7 +121,6 @@ body{
   
   .parent-for-btm-left-text:hover{
     transform: scale(0.95);
-    transition: 0.3s;
   }
 
     /* ------------ UNLOCK YOUR INNER CREATOR ----- UNLOCK YOUR INNER CREATOR ----- UNLOCK YOUR INNER CREATOR ------------ */
@@ -192,18 +196,19 @@ body{
         margin-bottom: 100px;
       }
       .footer-list{
-        list-style: none;
+        list-style: in;
         color: white;
       }
       
-      .footer-list h6{
-        color: white;
-      }
       
       .footer-list li{
         color: #5f7d95;
         font-size: 14px;
         font-weight: 500;
+        transition: 0.5s;
+      }
+      .footer-list li:hover{
+        color: #C7EBFF;
       }
       
       .social-media-icon{
@@ -211,6 +216,10 @@ body{
         height: 35px;
         border-radius: 5px;
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
       }
       
       .fb{
