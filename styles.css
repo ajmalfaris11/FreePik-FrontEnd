@@ -28,11 +28,13 @@ body{
   .navbar-text a{
     text-decoration: none;
   }
+
 /* ------------ HEADER ----- HEADER ----- HEADER ------------ */
 
   .Header-section {
+    padding: 0;
     background-color: #0D6EFD;
-    height: 35vw;
+    height: 500px;
     align-items: center;
     color: white;
     text-align: center;
@@ -60,27 +62,45 @@ body{
     padding: 2px 10px;
     border-radius: 5px;
   }
-  .Header-section-circle-img-div{
-    margin-top: 30px;
+  .header-circle-section{
+    width: 100%;
+    overflow-x: scroll;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-  }
-  
-  .Header-section-circle-img-div img{
-    width: 120px;
-    border: 2px solid #6C97E7;
-    padding: 3px;
-  }
-  
-  .circle-img-animation:hover{
-    transform: scale(.9);
-    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;    
   }
   
   .Header-section-circle-img-container{
     overflow-x: scroll;
     display: flex;
+    height: 100%;
+    align-items: center;
   }
+  .Header-section-circle-img-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .Header-section-circle-img-div button{
+    color: white;
+  }
+  .Header-section-circle-img-div img{
+    width: 100px;
+    border: 2px solid #6C97E7;
+    padding: 3px;
+    
+  }
+  .circle-img-animation{
+    transition: 0.5s ease;
+  }
+  .circle-img-animation:hover{
+    transform: scale(.9);
+  }
+
+
+
 
   /* ------------ sign up ----- sign up ----- sign up ------------ */
 
@@ -350,205 +370,215 @@ body{
 
     /* ------------ media query ----- media query ----- media query ------------ */
     
-    @media only screen and (max-width: 1300px) {
-    .Header-section-circle-img-div img{
-      width: 130px;
-    }
-    .circle-img-animation:hover{
-      width: 105px;
-      transition: 0.3s;
-    }
-  }
-  @media only screen and (max-width: 1200px) {
-    .navbar-brand {
-      display: none;
-    }
-    .hide-blw-1200-preset{
-      display: none;
-    }
-  }
-  
-  @media only screen and (min-width: 1200px) {
-    .nav-btns-hide {
-      display: none;
-    }
-    .Header-section {
-      height: 70vh;
-    }
-    .nav-left-items {
-      align-items: center;
-    }
-  
-    .Header-section-logo {
-      display: none;
-    }
-  
-    .Header-section-circle-img-div img{
-      margin-top: 20px;
-    }
-    .Header-section-h3{
-      margin-top: 40px;
-    }
-  }
-  
-  
-  @media only screen and (max-width: 1250px) {
-    .Header-section {
-      height: 75vh;
-    }
-    .Header-section-circle-img-div img{
-      width: 110px;
-    }
-    .circle-img-animation:hover{
-      width: 100px;
-      transition: 0.3s;
-    }
-  
-    .Unlock-your-inner-creator-img{
-      width: 200px;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-    .hide-blw-1250-preset{
-      display: none;
-    }
-  }
-  
-  @media only screen and (min-width: 1250px) {
-    .hide-abv-1250-preset{
-      display: none;
+    @media only screen and (min-width: 1300px) {
+      .Header-section-circle-img-div img{
+        width: 150px;
+      }
+ 
     }
    
-  }
+    @media only screen and (max-width: 1250px) {
+ 
+      .Unlock-your-inner-creator-img{
+        width: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .hide-blw-1250-preset{
+        display: none;
+      }
+    }
+
+    @media only screen and (min-width: 1250px) {
+      .hide-abv-1250-preset{
+        display: none;
+      }
+      .Header-section-circle-img-div img{
+        width: 130px;
+      }
+     
+    }
+    
+    @media only screen and (max-width: 1200px) {
+      .navbar-brand {
+        display: none;
+      }
+      .hide-blw-1200-preset{
+        display: none;
+      }
+    }
+
+    @media only screen and (min-width: 1200px) {
+      .nav-btns-hide {
+        display: none;
+      }
+     
+      .nav-left-items {
+        align-items: center;
+      }
+    
+      .Header-section-logo {
+        display: none;
+      }
+    
+      .Header-section-circle-img-div img{
+        margin-top: 20px;
+      }
+      .Header-section-h3{
+        margin-top: 40px;
+      }
+    }
+
+    @media only screen and (max-width: 990px) {
+      
+      .hide-screen-width-blw-1000{
+        display: none;
+      }
+      .Unlock-your-inner-creator-img{
+        width: 180px;
+      }
+      .explore-box{
+        height: 220px;
+      }
+   
+    }
+
+    @media only screen and (min-width: 990px) {
+      .hide-screen-width-abv-1000{
+        display: none;
+      }
+      .signature-div{
+        display: flex;
+        justify-content: space-between;
+      }
+      .Header-section-circle-img-container{
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        
+      }
+    
+    }  
+
+    @media only screen and (max-width:800px) {
+    
+      .secont-last-footer{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 20px;
+      }
+      .img-div{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .footer-end{
+        flex-direction: column;
+        font-size: small;
+      }
+      .footer-end h6{
+        font-size: small;
+        text-align: center;
+      }
+      .main-footer{
+        margin-bottom: 50px;
+      
+      }
   
-  @media only screen and (max-width: 990px) {
-    .Header-section-circle-img-div img{
-      width: 100px;
     }
-    .Header-section {
-      height: 60vh;
+    @media only screen and (max-width: 795px) {
+      .Header-section-p {
+        font-size: 16px;
+      }
+    
+      .Header-section-h3 {
+        font-size: 22px;
+      }
+    
+      .header-sec-search-div {
+        width: 80vw;
+      }
+    
+      .Header-section-hide-below-795 {
+        display: none;
+      }
+    
+      .Header-section-blue-btn {
+        font-size: 12px;
+      }
+    
+      .Sign-up-for-free-size-blw-795{
+        font-size: 14px;
+      }
+      .Sign-up-for-free-btn{
+        width: 200px;
+      }
+    
+      .text-freepik-dark{
+        font-size: 22px;
+        text-align: center;
+      }
+      .text-freepik-dark-create-an-acct{
+        font-size: 16px;
+        color: #374957;
+      }
+      .text-freepik-secondary{
+        font-size: 16px;
+        text-align: center;
+      }
+    
+      .Unlock-your-inner-creator-img{
+        width: 150px;
+        margin-left: 1px;
+        margin-right: 1px;
+      }
+    
+      .explore-box{
+        height: 180px;
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+   
     }
-    .hide-screen-width-blw-1000{
-      display: none;
+
+    @media only screen and (min-width: 795px) {
+      .Header-section-search-left-of-box {
+        display: none;
+      }
+      .Header-section-circle-img-div img{
+        width: 120px;
+      }
     }
-    .Unlock-your-inner-creator-img{
-      width: 180px;
-    }
-    .explore-box{
-      height: 220px;
-    }
-  }
-  
-  @media only screen and (min-width: 990px) {
-    .hide-screen-width-abv-1000{
-      display: none;
-    }
-    .signature-div{
-      display: flex;
-      justify-content: space-between;
-    }
-    .Header-section-circle-img-container{
-      width: 100%;
-      justify-content: space-evenly;
-      align-items: center;
+
+    @media screen and (max-width:500px) {
+    
+      .Header-section {
+        height: 360px;
+      }
+      .header-circle-section{
+        position: absolute;
+        margin-top:300px;
+        height: auto;
+        padding-inline: 5px;
+        height: 150px;
+        
+      }
+      .Header-section-circle-img-div{
+        margin-left: 10px;
+      }
+      .Header-section-circle-img-div img{
+        width: 90px;
+      }
+      .circle-img-animation:hover{
+        transform: scale(1.2);
+      }
+ 
+      .Header-section-circle-img-div button{
+        color: black;
+        font-size: small;
+      }
+      .explore-trendings{
+        margin-top: 50px;
+      }
       
     }
-  
-    .header-circle-section{
-      display: flex;
-      height: 100%;
-      align-items: center;
-    }
-  }
-  
-  @media only screen and (max-width: 795px) {
-    .Header-section-p {
-      font-size: 16px;
-    }
-    .Header-section {
-      height: 60vh;
-    }
-  
-    .Header-section-h3 {
-      font-size: 22px;
-    }
-  
-    .header-sec-search-div {
-      width: 80vw;
-    }
-  
-    .Header-section-hide-below-795 {
-      display: none;
-    }
-  
-    .Header-section-blue-btn {
-      font-size: 12px;
-    }
-  
-    .Sign-up-for-free-size-blw-795{
-      font-size: 14px;
-    }
-    .Sign-up-for-free-btn{
-      width: 200px;
-    }
-  
-    .text-freepik-dark{
-      font-size: 22px;
-      text-align: center;
-    }
-    .text-freepik-dark-create-an-acct{
-      font-size: 16px;
-      color: #374957;
-    }
-    .text-freepik-secondary{
-      font-size: 16px;
-      text-align: center;
-    }
-  
-    .Unlock-your-inner-creator-img{
-      width: 150px;
-      margin-left: 1px;
-      margin-right: 1px;
-    }
-  
-    .explore-box{
-      height: 180px;
-      padding-left: 60px;
-      padding-right: 60px;
-    }
-  }
-  
-  @media only screen and (min-width: 795px) {
-    .Header-section-search-left-of-box {
-      display: none;
-    }
-  }
-
-  @media only screen and (max-width:800px) {
-    
-    .secont-last-footer{
-      flex-direction: column;
-      height: auto;
-      padding-bottom: 20px;
-    }
-    .img-div{
-      flex-direction: column;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .footer-end{
-      flex-direction: column;
-      font-size: small;
-    }
-    .footer-end h6{
-      font-size: small;
-      text-align: center;
-    }
-    .main-footer{
-      margin-bottom: 50px;
-    
-    }
-
-  }
-
-  
