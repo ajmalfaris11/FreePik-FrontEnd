@@ -18,5 +18,7 @@ The goal of this project is to recreate the frontend user interface of the FreeP
 - **CSS:** Utilized for styling the elements and layouts.
 - **Bootstrap:** Employed to leverage its grid system, components, and utilities for faster and easier frontend development.
 
-
-
+Key Features:
+Homepage Recreation: The main focus of this project is to recreate the layout and design of the FreePik homepage. This includes replicating the header, search bar, featured resources section, and footer to closely resemble the original FreePik website.
+Purpose:
+The purpose of this repository is to serve as a learning exercise for frontend developers interested in understanding and implementing the design patterns and layout techniques employed by popular websites like FreePik. By building this frontend clone, developers can enhance their skills in HTML, CSS, and Bootstrap while gaining insights into responsive web design and UI/UX principles.
