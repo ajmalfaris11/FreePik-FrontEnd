@@ -18,7 +18,6 @@ The goal of this project is to recreate the frontend user interface of the FreeP
 - **CSS:** Utilized for styling the elements and layouts.
 - **Bootstrap:** Employed to leverage its grid system, components, and utilities for faster and easier frontend development.
 
-# FreePik Homepage Frontend Clone
 
 ## Key Features
 
